@@ -1,0 +1,376 @@
+2024-02-06 17:15:58,897 - Model - INFO - PARAMETER ...
+2024-02-06 17:15:58,897 - Model - INFO - Namespace(batch_size=64, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-02-06 17:16:00,977 - Model - INFO - The number of test data is: 6
+2024-02-06 17:16:25,629 - Model - INFO - PARAMETER ...
+2024-02-06 17:16:25,630 - Model - INFO - Namespace(batch_size=64, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-02-06 17:16:27,627 - Model - INFO - The number of test data is: 6
+2024-02-06 17:17:22,703 - Model - INFO - PARAMETER ...
+2024-02-06 17:17:22,703 - Model - INFO - Namespace(batch_size=64, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-02-06 17:17:24,585 - Model - INFO - The number of test data is: 6
+2024-02-06 17:17:25,142 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-02-06 17:18:31,376 - Model - INFO - Mean IoU of Treeto_13: 0.9687
+2024-02-06 17:18:52,424 - Model - INFO - Mean IoU of Treeto_25: 0.9730
+2024-02-06 17:19:27,233 - Model - INFO - Mean IoU of tree01: 0.9656
+2024-02-06 17:19:54,738 - Model - INFO - Mean IoU of tree04: 0.9649
+2024-02-06 17:20:33,514 - Model - INFO - Mean IoU of tree16: 0.8501
+2024-02-06 17:21:22,746 - Model - INFO - Mean IoU of tree30: 0.9227
+2024-02-06 17:21:24,656 - Model - INFO - ------- IoU --------
+class Part1         , IoU: 0.986 
+class Part2         , IoU: 0.996 
+class Part3         , IoU: 0.885 
+class Part4         , IoU: 0.970 
+
+2024-02-06 17:21:24,656 - Model - INFO - eval point avg class IoU: 0.959393
+2024-02-06 17:21:24,656 - Model - INFO - eval whole scene point avg class acc: 0.991835
+2024-02-06 17:21:24,656 - Model - INFO - eval whole scene point accuracy: 0.991276
+2024-03-13 16:00:32,452 - Model - INFO - PARAMETER ...
+2024-03-13 16:00:32,452 - Model - INFO - Namespace(batch_size=64, gpu='0', num_point=4096, log_dir='2024-02-06_16-57', visual=True, num_votes=3)
+2024-03-13 16:00:34,697 - Model - INFO - The number of test data is: 6
+2024-03-13 16:03:42,934 - Model - INFO - PARAMETER ...
+2024-03-13 16:03:42,934 - Model - INFO - Namespace(batch_size=64, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-13 16:03:45,688 - Model - INFO - The number of test data is: 6
+2024-03-13 16:03:48,901 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-13 16:06:35,516 - Model - INFO - PARAMETER ...
+2024-03-13 16:06:35,516 - Model - INFO - Namespace(batch_size=64, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-13 16:06:37,775 - Model - INFO - The number of test data is: 6
+2024-03-13 16:06:40,359 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-13 16:09:00,586 - Model - INFO - PARAMETER ...
+2024-03-13 16:09:00,586 - Model - INFO - Namespace(batch_size=4, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-13 16:09:02,713 - Model - INFO - The number of test data is: 6
+2024-03-13 16:09:05,636 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-13 16:11:16,792 - Model - INFO - PARAMETER ...
+2024-03-13 16:11:16,793 - Model - INFO - Namespace(batch_size=2, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-13 16:11:19,548 - Model - INFO - The number of test data is: 6
+2024-03-13 16:11:22,013 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-13 16:13:12,849 - Model - INFO - PARAMETER ...
+2024-03-13 16:13:12,849 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-13 16:13:15,069 - Model - INFO - The number of test data is: 6
+2024-03-13 16:13:17,747 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-13 16:16:32,634 - Model - INFO - Mean IoU of Treeto_13: 0.9693
+2024-03-13 16:18:08,400 - Model - INFO - PARAMETER ...
+2024-03-13 16:18:08,400 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-13 16:18:30,087 - Model - INFO - The number of test data is: 50
+2024-03-13 16:18:32,442 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-13 16:18:58,711 - Model - INFO - Mean IoU of section_50: 1.0000
+2024-03-13 16:19:32,189 - Model - INFO - Mean IoU of section_51: 0.9718
+2024-03-13 16:20:25,228 - Model - INFO - Mean IoU of section_52: 0.9482
+2024-03-13 16:21:32,546 - Model - INFO - Mean IoU of section_53: 0.9217
+2024-03-13 16:22:59,173 - Model - INFO - Mean IoU of section_54: 0.9760
+2024-03-13 16:28:46,610 - Model - INFO - PARAMETER ...
+2024-03-13 16:28:46,611 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-13 16:29:01,637 - Model - INFO - The number of test data is: 50
+2024-03-13 16:29:04,762 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-13 16:29:20,991 - Model - INFO - Mean IoU of section_50: 0.9014
+2024-03-13 16:29:46,335 - Model - INFO - Mean IoU of section_51: 0.9688
+2024-03-13 16:30:20,284 - Model - INFO - Mean IoU of section_52: 0.9930
+2024-03-13 16:31:02,622 - Model - INFO - Mean IoU of section_53: 0.9872
+2024-03-13 16:31:56,759 - Model - INFO - Mean IoU of section_54: 0.9740
+2024-03-13 16:33:01,744 - Model - INFO - Mean IoU of section_55: 0.9470
+2024-03-13 16:34:09,610 - Model - INFO - Mean IoU of section_56: 0.9553
+2024-03-13 16:35:21,756 - Model - INFO - Mean IoU of section_57: 0.9774
+2024-03-13 16:36:36,522 - Model - INFO - Mean IoU of section_58: 0.9754
+2024-03-13 16:37:45,460 - Model - INFO - Mean IoU of section_59: 0.9730
+2024-03-13 16:38:55,644 - Model - INFO - Mean IoU of section_60: 0.9454
+2024-03-13 16:40:15,538 - Model - INFO - Mean IoU of section_61: 0.9760
+2024-03-13 16:41:33,448 - Model - INFO - Mean IoU of section_62: 0.9084
+2024-03-13 16:42:57,611 - Model - INFO - Mean IoU of section_63: 0.9733
+2024-03-13 16:44:18,406 - Model - INFO - Mean IoU of section_64: 0.9869
+2024-03-13 16:45:37,274 - Model - INFO - Mean IoU of section_65: 0.9289
+2024-03-13 16:47:03,605 - Model - INFO - Mean IoU of section_66: 0.9513
+2024-03-13 16:48:28,066 - Model - INFO - Mean IoU of section_67: 0.9524
+2024-03-13 16:49:59,232 - Model - INFO - Mean IoU of section_68: 0.9465
+2024-03-13 16:51:25,406 - Model - INFO - Mean IoU of section_69: 0.9767
+2024-03-13 16:53:04,561 - Model - INFO - Mean IoU of section_70: 0.9631
+2024-03-13 16:54:53,187 - Model - INFO - Mean IoU of section_71: 0.9786
+2024-03-13 16:56:39,997 - Model - INFO - Mean IoU of section_72: 0.9590
+2024-03-13 16:58:33,865 - Model - INFO - Mean IoU of section_73: 0.9560
+2024-03-13 17:00:15,941 - Model - INFO - Mean IoU of section_74: 0.9824
+2024-03-13 17:01:55,059 - Model - INFO - Mean IoU of section_75: 0.9616
+2024-03-13 17:03:42,390 - Model - INFO - Mean IoU of section_76: 0.9400
+2024-03-13 17:05:32,784 - Model - INFO - Mean IoU of section_77: 0.9899
+2024-03-13 17:07:49,728 - Model - INFO - Mean IoU of section_78: 0.8781
+2024-03-13 17:10:10,140 - Model - INFO - Mean IoU of section_79: 0.9291
+2024-03-13 17:12:26,861 - Model - INFO - Mean IoU of section_80: 0.9531
+2024-03-13 17:14:17,411 - Model - INFO - Mean IoU of section_81: 0.9538
+2024-03-13 17:16:15,128 - Model - INFO - Mean IoU of section_82: 0.9649
+2024-03-13 17:18:27,475 - Model - INFO - Mean IoU of section_83: 0.9672
+2024-03-13 17:20:35,117 - Model - INFO - Mean IoU of section_84: 0.9755
+2024-03-13 17:22:34,501 - Model - INFO - Mean IoU of section_85: 0.9725
+2024-03-13 17:24:33,344 - Model - INFO - Mean IoU of section_86: 0.9765
+2024-03-13 17:26:13,985 - Model - INFO - Mean IoU of section_87: 0.9668
+2024-03-13 17:27:40,166 - Model - INFO - Mean IoU of section_88: 0.9639
+2024-03-13 17:29:00,578 - Model - INFO - Mean IoU of section_89: 0.9634
+2024-03-13 17:30:15,062 - Model - INFO - Mean IoU of section_90: 0.9573
+2024-03-13 17:31:26,597 - Model - INFO - Mean IoU of section_91: 0.9582
+2024-03-13 17:32:41,683 - Model - INFO - Mean IoU of section_92: 0.9922
+2024-03-13 17:34:03,280 - Model - INFO - Mean IoU of section_93: 0.9598
+2024-03-13 17:35:01,370 - Model - INFO - Mean IoU of section_94: 0.9677
+2024-03-13 17:35:53,515 - Model - INFO - Mean IoU of section_95: 0.9680
+2024-03-13 17:36:42,240 - Model - INFO - Mean IoU of section_96: 0.9708
+2024-03-13 17:37:20,535 - Model - INFO - Mean IoU of section_97: 0.9553
+2024-03-13 17:37:47,315 - Model - INFO - Mean IoU of section_98: 0.9107
+2024-03-13 17:38:05,170 - Model - INFO - Mean IoU of section_99: 0.9982
+2024-03-13 17:38:05,429 - Model - INFO - ------- IoU --------
+class Part1         , IoU: 0.990 
+class Part2         , IoU: 0.986 
+class Part3         , IoU: 0.902 
+class Part4         , IoU: 0.974 
+
+2024-03-13 17:38:05,429 - Model - INFO - eval point avg class IoU: 0.963036
+2024-03-13 17:38:05,429 - Model - INFO - eval whole scene point avg class acc: 0.991786
+2024-03-13 17:38:05,429 - Model - INFO - eval whole scene point accuracy: 0.991021
+2024-03-15 14:58:58,097 - Model - INFO - PARAMETER ...
+2024-03-15 14:58:58,099 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-15 14:59:11,803 - Model - INFO - The number of test data is: 50
+2024-03-15 14:59:15,139 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-15 14:59:29,834 - Model - INFO - Mean IoU of section_50: 0.8991
+2024-03-15 14:59:54,734 - Model - INFO - Mean IoU of section_51: 0.9698
+2024-03-15 15:00:30,109 - Model - INFO - Mean IoU of section_52: 0.9924
+2024-03-15 15:01:11,687 - Model - INFO - Mean IoU of section_53: 0.9881
+2024-03-15 15:02:03,165 - Model - INFO - Mean IoU of section_54: 0.9739
+2024-03-15 15:03:06,645 - Model - INFO - Mean IoU of section_55: 0.9486
+2024-03-15 15:04:13,189 - Model - INFO - Mean IoU of section_56: 0.9540
+2024-03-15 15:05:27,437 - Model - INFO - Mean IoU of section_57: 0.9772
+2024-03-15 15:06:44,754 - Model - INFO - Mean IoU of section_58: 0.9760
+2024-03-15 15:07:51,379 - Model - INFO - Mean IoU of section_59: 0.9733
+2024-03-15 15:09:00,166 - Model - INFO - Mean IoU of section_60: 0.9408
+2024-03-15 15:10:17,280 - Model - INFO - Mean IoU of section_61: 0.9757
+2024-03-15 15:11:31,039 - Model - INFO - Mean IoU of section_62: 0.8853
+2024-03-15 15:12:52,272 - Model - INFO - Mean IoU of section_63: 0.9724
+2024-03-15 15:14:06,237 - Model - INFO - Mean IoU of section_64: 0.9871
+2024-03-15 15:15:20,277 - Model - INFO - Mean IoU of section_65: 0.9289
+2024-03-15 15:16:41,181 - Model - INFO - Mean IoU of section_66: 0.9518
+2024-03-15 15:18:01,642 - Model - INFO - Mean IoU of section_67: 0.9514
+2024-03-15 15:19:29,323 - Model - INFO - Mean IoU of section_68: 0.9460
+2024-03-15 15:20:52,319 - Model - INFO - Mean IoU of section_69: 0.9775
+2024-03-15 15:22:26,096 - Model - INFO - Mean IoU of section_70: 0.9630
+2024-03-15 15:24:02,015 - Model - INFO - Mean IoU of section_71: 0.9786
+2024-03-15 15:25:43,874 - Model - INFO - Mean IoU of section_72: 0.9586
+2024-03-15 15:27:25,812 - Model - INFO - Mean IoU of section_73: 0.9561
+2024-03-15 15:28:56,739 - Model - INFO - Mean IoU of section_74: 0.9827
+2024-03-15 15:30:33,198 - Model - INFO - Mean IoU of section_75: 0.9631
+2024-03-15 15:32:16,768 - Model - INFO - Mean IoU of section_76: 0.9406
+2024-03-15 15:34:08,293 - Model - INFO - Mean IoU of section_77: 0.9820
+2024-03-15 15:36:16,145 - Model - INFO - Mean IoU of section_78: 0.8529
+2024-03-15 15:38:38,240 - Model - INFO - Mean IoU of section_79: 0.9297
+2024-03-15 15:41:06,843 - Model - INFO - Mean IoU of section_80: 0.9530
+2024-03-15 15:43:08,192 - Model - INFO - Mean IoU of section_81: 0.9540
+2024-03-15 15:45:30,151 - Model - INFO - Mean IoU of section_82: 0.9650
+2024-03-15 15:47:48,627 - Model - INFO - Mean IoU of section_83: 0.9675
+2024-03-15 15:50:01,292 - Model - INFO - Mean IoU of section_84: 0.9750
+2024-03-15 15:51:55,490 - Model - INFO - Mean IoU of section_85: 0.9730
+2024-03-15 15:54:02,736 - Model - INFO - Mean IoU of section_86: 0.9765
+2024-03-15 15:55:37,038 - Model - INFO - Mean IoU of section_87: 0.9675
+2024-03-15 15:57:01,686 - Model - INFO - Mean IoU of section_88: 0.9633
+2024-03-15 15:58:22,052 - Model - INFO - Mean IoU of section_89: 0.9634
+2024-03-15 15:59:36,874 - Model - INFO - Mean IoU of section_90: 0.9568
+2024-03-15 16:00:47,558 - Model - INFO - Mean IoU of section_91: 0.9548
+2024-03-15 16:02:05,750 - Model - INFO - Mean IoU of section_92: 0.9917
+2024-03-15 16:03:28,541 - Model - INFO - Mean IoU of section_93: 0.9601
+2024-03-15 16:04:28,173 - Model - INFO - Mean IoU of section_94: 0.9672
+2024-03-15 16:05:18,596 - Model - INFO - Mean IoU of section_95: 0.9677
+2024-03-15 16:06:04,911 - Model - INFO - Mean IoU of section_96: 0.9712
+2024-03-15 16:06:42,603 - Model - INFO - Mean IoU of section_97: 0.9553
+2024-03-15 16:07:08,651 - Model - INFO - Mean IoU of section_98: 0.9110
+2024-03-15 16:07:25,740 - Model - INFO - Mean IoU of section_99: 0.9971
+2024-03-15 16:07:26,011 - Model - INFO - ------- IoU --------
+class Part1         , IoU: 0.990 
+class Part2         , IoU: 0.986 
+class Part3         , IoU: 0.903 
+class Part4         , IoU: 0.974 
+
+2024-03-15 16:07:26,011 - Model - INFO - eval point avg class IoU: 0.963100
+2024-03-15 16:07:26,012 - Model - INFO - eval whole scene point avg class acc: 0.991782
+2024-03-15 16:07:26,012 - Model - INFO - eval whole scene point accuracy: 0.991031
+2024-03-19 14:20:48,938 - Model - INFO - PARAMETER ...
+2024-03-19 14:20:48,938 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-19 14:22:08,586 - Model - INFO - The number of test data is: 50
+2024-03-19 14:22:12,064 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-19 14:22:36,656 - Model - INFO - Mean IoU of section_50: 0.5122
+2024-03-19 14:23:34,504 - Model - INFO - Mean IoU of section_51: 0.3015
+2024-03-19 14:35:42,928 - Model - INFO - PARAMETER ...
+2024-03-19 14:35:42,928 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-03-19 14:35:56,491 - Model - INFO - The number of test data is: 50
+2024-03-19 14:35:59,129 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-03-19 14:36:12,531 - Model - INFO - Mean IoU of section_50: 0.8979
+2024-03-19 14:36:36,549 - Model - INFO - Mean IoU of section_51: 0.9691
+2024-03-19 14:37:09,185 - Model - INFO - Mean IoU of section_52: 0.9930
+2024-03-19 14:37:48,687 - Model - INFO - Mean IoU of section_53: 0.9871
+2024-03-19 14:38:38,423 - Model - INFO - Mean IoU of section_54: 0.9742
+2024-03-19 14:39:42,273 - Model - INFO - Mean IoU of section_55: 0.9481
+2024-03-19 14:40:59,999 - Model - INFO - Mean IoU of section_56: 0.9545
+2024-03-19 14:42:11,180 - Model - INFO - Mean IoU of section_57: 0.9769
+2024-03-19 14:43:22,657 - Model - INFO - Mean IoU of section_58: 0.9761
+2024-03-19 14:44:29,014 - Model - INFO - Mean IoU of section_59: 0.9737
+2024-03-19 14:45:37,114 - Model - INFO - Mean IoU of section_60: 0.9430
+2024-03-19 14:46:53,496 - Model - INFO - Mean IoU of section_61: 0.9757
+2024-03-19 14:48:08,461 - Model - INFO - Mean IoU of section_62: 0.9215
+2024-03-19 14:49:28,407 - Model - INFO - Mean IoU of section_63: 0.9728
+2024-03-19 14:50:46,128 - Model - INFO - Mean IoU of section_64: 0.9869
+2024-03-19 14:52:01,445 - Model - INFO - Mean IoU of section_65: 0.9292
+2024-03-19 14:53:23,993 - Model - INFO - Mean IoU of section_66: 0.9516
+2024-03-19 14:54:46,716 - Model - INFO - Mean IoU of section_67: 0.9524
+2024-03-19 14:56:13,235 - Model - INFO - Mean IoU of section_68: 0.9452
+2024-03-19 14:57:36,235 - Model - INFO - Mean IoU of section_69: 0.9764
+2024-03-19 14:59:10,776 - Model - INFO - Mean IoU of section_70: 0.9641
+2024-03-19 15:00:46,440 - Model - INFO - Mean IoU of section_71: 0.9794
+2024-03-19 15:02:26,830 - Model - INFO - Mean IoU of section_72: 0.9591
+2024-03-19 15:04:05,608 - Model - INFO - Mean IoU of section_73: 0.9568
+2024-03-19 15:05:36,944 - Model - INFO - Mean IoU of section_74: 0.9830
+2024-03-19 15:07:12,346 - Model - INFO - Mean IoU of section_75: 0.9616
+2024-03-19 15:08:55,659 - Model - INFO - Mean IoU of section_76: 0.9401
+2024-03-19 15:10:41,836 - Model - INFO - Mean IoU of section_77: 0.9858
+2024-03-19 15:12:48,728 - Model - INFO - Mean IoU of section_78: 0.9334
+2024-03-19 15:14:58,968 - Model - INFO - Mean IoU of section_79: 0.9296
+2024-03-19 15:17:09,147 - Model - INFO - Mean IoU of section_80: 0.9534
+2024-03-19 15:18:54,251 - Model - INFO - Mean IoU of section_81: 0.9537
+2024-03-19 15:20:45,174 - Model - INFO - Mean IoU of section_82: 0.9649
+2024-03-19 15:22:49,972 - Model - INFO - Mean IoU of section_83: 0.9676
+2024-03-19 15:24:48,380 - Model - INFO - Mean IoU of section_84: 0.9751
+2024-03-19 15:26:40,308 - Model - INFO - Mean IoU of section_85: 0.9732
+2024-03-19 15:28:33,068 - Model - INFO - Mean IoU of section_86: 0.9765
+2024-03-19 15:30:01,568 - Model - INFO - Mean IoU of section_87: 0.9671
+2024-03-19 15:31:23,674 - Model - INFO - Mean IoU of section_88: 0.9636
+2024-03-19 15:32:41,855 - Model - INFO - Mean IoU of section_89: 0.9637
+2024-03-19 15:33:53,056 - Model - INFO - Mean IoU of section_90: 0.9569
+2024-03-19 15:35:01,525 - Model - INFO - Mean IoU of section_91: 0.9571
+2024-03-19 15:36:12,771 - Model - INFO - Mean IoU of section_92: 0.9923
+2024-03-19 15:37:29,460 - Model - INFO - Mean IoU of section_93: 0.9594
+2024-03-19 15:38:24,011 - Model - INFO - Mean IoU of section_94: 0.9676
+2024-03-19 15:39:12,583 - Model - INFO - Mean IoU of section_95: 0.9677
+2024-03-19 15:39:58,247 - Model - INFO - Mean IoU of section_96: 0.9714
+2024-03-19 15:40:35,359 - Model - INFO - Mean IoU of section_97: 0.9556
+2024-03-19 15:41:00,659 - Model - INFO - Mean IoU of section_98: 0.9153
+2024-03-19 15:41:17,197 - Model - INFO - Mean IoU of section_99: 0.9976
+2024-03-19 15:41:17,433 - Model - INFO - ------- IoU --------
+class Stem          , IoU: 0.990 
+class Crown         , IoU: 0.986 
+class Shrub         , IoU: 0.903 
+class Ground        , IoU: 0.974 
+
+2024-03-19 15:41:17,433 - Model - INFO - eval point avg class IoU: 0.963124
+2024-03-19 15:41:17,433 - Model - INFO - eval whole scene point avg class acc: 0.991822
+2024-03-19 15:41:17,433 - Model - INFO - eval whole scene point accuracy: 0.991045
+2024-04-21 13:33:55,858 - Model - INFO - PARAMETER ...
+2024-04-21 13:33:55,858 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-04-21 13:34:10,687 - Model - INFO - The number of test data is: 50
+2024-04-21 13:34:14,196 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-04-21 13:34:28,858 - Model - INFO - Mean IoU of section_50: 0.9024
+2024-04-21 13:34:53,571 - Model - INFO - Mean IoU of section_51: 0.9687
+2024-04-21 13:35:27,167 - Model - INFO - Mean IoU of section_52: 0.9918
+2024-04-21 13:36:06,539 - Model - INFO - Mean IoU of section_53: 0.9872
+2024-04-21 13:37:00,788 - Model - INFO - Mean IoU of section_54: 0.9740
+2024-04-21 13:38:11,783 - Model - INFO - Mean IoU of section_55: 0.9474
+2024-04-21 13:39:22,602 - Model - INFO - Mean IoU of section_56: 0.9555
+2024-04-21 13:40:34,210 - Model - INFO - Mean IoU of section_57: 0.9772
+2024-04-21 13:41:48,442 - Model - INFO - Mean IoU of section_58: 0.9761
+2024-04-21 13:42:57,881 - Model - INFO - Mean IoU of section_59: 0.9734
+2024-04-21 13:44:08,999 - Model - INFO - Mean IoU of section_60: 0.9455
+2024-04-21 13:45:29,193 - Model - INFO - Mean IoU of section_61: 0.9754
+2024-04-21 13:46:47,257 - Model - INFO - Mean IoU of section_62: 0.9126
+2024-04-21 13:48:10,708 - Model - INFO - Mean IoU of section_63: 0.9726
+2024-04-21 13:49:28,349 - Model - INFO - Mean IoU of section_64: 0.9868
+2024-04-21 13:50:46,207 - Model - INFO - Mean IoU of section_65: 0.9284
+2024-04-21 13:52:09,300 - Model - INFO - Mean IoU of section_66: 0.9506
+2024-04-21 13:53:33,130 - Model - INFO - Mean IoU of section_67: 0.9515
+2024-04-21 13:55:03,743 - Model - INFO - Mean IoU of section_68: 0.9466
+2024-04-21 13:56:30,925 - Model - INFO - Mean IoU of section_69: 0.9775
+2024-04-21 13:58:09,837 - Model - INFO - Mean IoU of section_70: 0.9637
+2024-04-21 13:59:48,287 - Model - INFO - Mean IoU of section_71: 0.9788
+2024-04-21 14:01:33,979 - Model - INFO - Mean IoU of section_72: 0.9585
+2024-04-21 14:03:38,336 - Model - INFO - Mean IoU of section_73: 0.9566
+2024-04-21 14:36:44,610 - Model - INFO - Mean IoU of section_74: 0.9822
+2024-04-21 14:39:13,473 - Model - INFO - Mean IoU of section_75: 0.9616
+2024-04-21 14:41:39,731 - Model - INFO - Mean IoU of section_76: 0.9399
+2024-04-21 14:44:07,922 - Model - INFO - Mean IoU of section_77: 0.9901
+2024-04-21 14:47:04,485 - Model - INFO - Mean IoU of section_78: 0.8891
+2024-04-21 14:50:05,149 - Model - INFO - Mean IoU of section_79: 0.9283
+2024-04-21 14:52:14,846 - Model - INFO - Mean IoU of section_80: 0.9531
+2024-04-21 14:54:06,846 - Model - INFO - Mean IoU of section_81: 0.9544
+2024-04-21 14:56:02,121 - Model - INFO - Mean IoU of section_82: 0.9646
+2024-04-21 14:58:10,222 - Model - INFO - Mean IoU of section_83: 0.9676
+2024-04-21 15:00:12,051 - Model - INFO - Mean IoU of section_84: 0.9747
+2024-04-21 16:26:36,873 - Model - INFO - Mean IoU of section_85: 0.9726
+2024-04-21 16:28:34,840 - Model - INFO - Mean IoU of section_86: 0.9763
+2024-04-21 16:29:57,497 - Model - INFO - Mean IoU of section_87: 0.9671
+2024-04-21 16:43:57,478 - Model - INFO - Mean IoU of section_88: 0.9639
+2024-04-21 16:45:45,567 - Model - INFO - Mean IoU of section_89: 0.9632
+2024-04-21 16:47:25,153 - Model - INFO - Mean IoU of section_90: 0.9575
+2024-04-21 16:49:00,664 - Model - INFO - Mean IoU of section_91: 0.9519
+2024-04-21 16:50:39,009 - Model - INFO - Mean IoU of section_92: 0.9926
+2024-04-21 16:52:25,606 - Model - INFO - Mean IoU of section_93: 0.9596
+2024-04-21 16:53:34,938 - Model - INFO - Mean IoU of section_94: 0.9669
+2024-04-21 16:54:18,980 - Model - INFO - Mean IoU of section_95: 0.9672
+2024-04-21 16:55:01,377 - Model - INFO - Mean IoU of section_96: 0.9705
+2024-04-21 16:55:42,877 - Model - INFO - Mean IoU of section_97: 0.9550
+2024-04-21 16:56:16,258 - Model - INFO - Mean IoU of section_98: 0.9141
+2024-04-21 16:56:37,712 - Model - INFO - Mean IoU of section_99: 0.9976
+2024-04-21 16:56:38,083 - Model - INFO - ------- IoU --------
+class Stem          , IoU: 0.990 
+class Foliage       , IoU: 0.986 
+class Shrub         , IoU: 0.902 
+class Ground        , IoU: 0.974 
+
+2024-04-21 16:56:38,083 - Model - INFO - eval point avg class IoU: 0.962945
+2024-04-21 16:56:38,084 - Model - INFO - eval whole scene point avg class acc: 0.991746
+2024-04-21 16:56:38,084 - Model - INFO - eval whole scene point accuracy: 0.990997
+2024-04-21 20:26:44,852 - Model - INFO - PARAMETER ...
+2024-04-21 20:26:44,853 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-04-21 20:26:58,434 - Model - INFO - The number of test data is: 43
+2024-04-21 20:27:01,032 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-04-21 20:29:30,973 - Model - INFO - PARAMETER ...
+2024-04-21 20:29:30,973 - Model - INFO - Namespace(batch_size=6, gpu='0', log_dir='2024-02-06_16-57', num_point=4096, num_votes=3, visual=True)
+2024-04-21 20:29:44,931 - Model - INFO - The number of test data is: 43
+2024-04-21 20:29:47,543 - Model - INFO - ---- EVALUATION WHOLE SCENE----
+2024-04-21 20:33:31,445 - Model - INFO - Mean IoU of tree01: 0.9660
+2024-04-21 20:37:54,684 - Model - INFO - Mean IoU of tree02: 0.9480
+2024-04-21 20:40:37,425 - Model - INFO - Mean IoU of tree03: 0.9358
+2024-04-21 20:43:35,341 - Model - INFO - Mean IoU of tree04: 0.9648
+2024-04-21 20:47:54,865 - Model - INFO - Mean IoU of tree05: 0.8902
+2024-04-21 20:51:36,406 - Model - INFO - Mean IoU of tree06: 0.9475
+2024-04-21 20:53:06,554 - Model - INFO - Mean IoU of tree07: 0.9504
+2024-04-21 20:56:10,977 - Model - INFO - Mean IoU of tree08: 0.9437
+2024-04-21 20:58:50,965 - Model - INFO - Mean IoU of tree09: 0.9681
+2024-04-21 21:01:25,844 - Model - INFO - Mean IoU of tree10: 0.9221
+2024-04-21 21:05:16,092 - Model - INFO - Mean IoU of tree11: 0.9621
+2024-04-21 21:07:49,906 - Model - INFO - Mean IoU of tree12: 0.9607
+2024-04-21 21:09:33,904 - Model - INFO - Mean IoU of tree13: 0.8876
+2024-04-21 21:10:52,147 - Model - INFO - Mean IoU of tree14: 0.8821
+2024-04-21 21:19:01,751 - Model - INFO - Mean IoU of tree15: 0.8483
+2024-04-21 21:25:41,819 - Model - INFO - Mean IoU of tree16: 0.8437
+2024-04-21 21:30:35,231 - Model - INFO - Mean IoU of tree17: 0.9000
+2024-04-21 21:36:23,798 - Model - INFO - Mean IoU of tree18: 0.9294
+2024-04-21 21:44:19,462 - Model - INFO - Mean IoU of tree19: 0.9230
+2024-04-21 21:48:12,979 - Model - INFO - Mean IoU of tree20: 0.9401
+2024-04-21 21:52:04,168 - Model - INFO - Mean IoU of tree21: 0.9210
+2024-04-21 21:54:16,156 - Model - INFO - Mean IoU of tree22: 0.9678
+2024-04-21 21:56:21,420 - Model - INFO - Mean IoU of tree23: 0.9487
+2024-04-21 21:59:01,617 - Model - INFO - Mean IoU of tree24: 0.9250
+2024-04-21 22:02:17,915 - Model - INFO - Mean IoU of tree25: 0.9121
+2024-04-21 22:04:39,303 - Model - INFO - Mean IoU of tree26: 0.9006
+2024-04-21 22:08:19,919 - Model - INFO - Mean IoU of tree27: 0.9614
+2024-04-21 22:11:21,278 - Model - INFO - Mean IoU of tree28: 0.9644
+2024-04-21 22:14:10,699 - Model - INFO - Mean IoU of tree29: 0.9456
+2024-04-21 22:18:59,200 - Model - INFO - Mean IoU of tree30: 0.9221
+2024-04-21 22:24:29,164 - Model - INFO - Mean IoU of tree31: 0.9194
+2024-04-21 22:30:02,040 - Model - INFO - Mean IoU of tree32: 0.9746
+2024-04-21 22:34:18,363 - Model - INFO - Mean IoU of tree33: 0.9765
+2024-04-21 22:39:10,243 - Model - INFO - Mean IoU of tree34: 0.9683
+2024-04-21 22:42:59,612 - Model - INFO - Mean IoU of tree35: 0.9569
+2024-04-21 22:46:41,537 - Model - INFO - Mean IoU of tree36: 0.8876
+2024-04-21 22:50:11,723 - Model - INFO - Mean IoU of tree37: 0.9636
+2024-04-21 22:51:28,433 - Model - INFO - Mean IoU of tree38: 0.9172
+2024-04-21 22:52:52,487 - Model - INFO - Mean IoU of tree39: 0.8885
+2024-04-21 22:55:56,335 - Model - INFO - Mean IoU of tree40: 0.9558
+2024-04-21 22:58:26,672 - Model - INFO - Mean IoU of tree41: 0.8875
+2024-04-21 23:00:39,057 - Model - INFO - Mean IoU of tree42: 0.9325
+2024-04-21 23:05:09,454 - Model - INFO - Mean IoU of tree43: 0.9604
+2024-04-21 23:05:11,719 - Model - INFO - ------- IoU --------
+class Stem          , IoU: 0.987 
+class Foliage       , IoU: 0.996 
+class Shrub         , IoU: 0.893 
+class Ground        , IoU: 0.858 
+
+2024-04-21 23:05:11,719 - Model - INFO - eval point avg class IoU: 0.933720
+2024-04-21 23:05:11,719 - Model - INFO - eval whole scene point avg class acc: 0.982979
+2024-04-21 23:05:11,719 - Model - INFO - eval whole scene point accuracy: 0.991419
